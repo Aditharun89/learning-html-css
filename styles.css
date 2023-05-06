@@ -1,0 +1,65 @@
+h1{
+font-size: 60px;
+font-family: Sans-serif;
+}
+h2
+{
+font-size: 30px;
+font-family: Sans-serif;
+}
+p
+{
+font-size: 20px;
+font-family: Sans-serif;
+}
+li
+{
+font-size: 20px;
+font-family: Sans-serif;
+}
+th
+{
+font-size: 20px;
+font-family: Sans-serif;
+}
+td
+{
+font-size: 20px;
+font-family: Sans-serif;
+
+}
+
+
+.box-1{
+color:DodgerBlue;
+background-color:#333;
+
+}
+.container{
+width:80%;
+margin:auto;
+}
+
+.my-form
+{
+padding:20px;
+}
+
+.my-form{
+
+display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:80%
+	
+}
+
+.my-form input[type="submit"]
+{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none
+}

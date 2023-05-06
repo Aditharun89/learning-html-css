@@ -2,39 +2,8 @@
 <html>
 <head>
 	<title>PORTFOLIO</title>
-<style>
-h1{
-font-size: 60px;
-font-family: Sans-serif;
-}
-h2
-{
-font-size: 30px;
-font-family: Sans-serif;
-}
-p
-{
-font-size: 20px;
-font-family: Sans-serif;
-}
-li
-{
-font-size: 20px;
-font-family: Sans-serif;
-}
-th
-{
-font-size: 20px;
-font-family: Sans-serif;
-}
-td
-{
-font-size: 20px;
-font-family: Sans-serif;
+<link rel="stylesheet" href="styles.css">
 
-}
-
-</style>
 
 </head>
 <body>
@@ -47,9 +16,12 @@ body {
   background-size: 100% 100%;
 }
 </style>
-
-	<h1>Hi, I'm Adith,<br>learning as a trainee at <a href="https://www.mind-empowered.org/" target="_blank">ME Internship 2023</a></h1>      
-	<h2>Hobbies</h2>
+	<div class="link">
+	<div class="box-1">
+	<h1>Hi, I'm Adith,<br>learning as a trainee at <a href="https://www.mind-empowered.org/" target="_blank" style= "color:#FAA214">ME Internship 2023</a></h1>      
+	</div>
+	</div>
+	<div class="box-1"><h2>Hobbies</h2></div>
 	<ul>
 		<li>Creating Websites</li>
 		<li>Coding</li>
@@ -57,13 +29,13 @@ body {
 		<li>Gym</li>
 		
 	</ul>
-	<h2>Professional Skillset</h2>
+	<div class="box-1"><h2>Professional Skillset</h2></div>
 	<ol>
 		<li>Html</li>
 		<li>Python</li>
 		<li>Figma</li>
 	</ol>
-	<h2>Education</h2>
+	<div class="box-1"><h2>Education</h2></div>
 	<table>
 		<tr>
 			<th>SchoolName&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
@@ -82,14 +54,22 @@ body {
 		</tr>
 		
 	</table>
-	<h2>About Myself</h2>
+	
+	<div class="box-1"><h2>About Myself</h2></div>
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;I am Currently a STUDENT at <a href="https://kmeacollege.ac.in/index.php" target="_blank">KMEA ENGINEERING COLLEGE </a>, a budding aspirant in the field of COMPUTER SCIENCE ENGINEERING.</p>
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.tochschool.com/" target="_blank">Toc H Public School </a> shaped me into the individual that i am today. Completed my schooling through flying colours.</p>
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;I am Skilled at coding,app developing and cpu assembling</p>
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;I am active member of Tinker hub and Hack club of Kmea Engineering college</p>
-
-	<h2>Contact</h2>
-
+	<form class="my-form">
+	<div class="box-1"><h2>Contact</h2></div>
+  	<label for="fname">Name:</label><br>
+  	<input type="text" id="Name" name="Name"><br>
+  	<label for="Email">Email:</label><br>
+  	<input type="text" id="Email" name="Email"><br><br>
+	<label for="Message">Message:</label><br>
+  	<input type="text" id="Message" name="Message" ><br><br>
+  	<input type="submit" value="Submit">
+	</form> 
 	
 	<a href="https://www.linkedin.com/in/adith-arun-118813211/" target="_blank" style="font-size: 20px">Linkedin</a>
 	<a href="https://www.facebook.com/adith.arun.52" target="_blank" style="font-size: 20px">Facebook</a>
